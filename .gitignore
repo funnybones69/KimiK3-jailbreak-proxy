@@ -1,0 +1,5 @@
+__pycache__/
+*.log
+*.key
+.env
+start_local.bat
