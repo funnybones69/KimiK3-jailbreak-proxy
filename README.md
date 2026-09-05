@@ -1,6 +1,6 @@
-# kimik3-jb-proxy
+# Kimi K3 Jailbreak Proxy
 
-A localhost, OpenAI-compatible proxy for **Kimi K3** that removes model refusals using the **reasoning-prefill** technique — without suppressing or replacing the model's own thinking.
+A localhost, OpenAI-compatible **jailbreak proxy** for **Kimi K3** that removes model refusals using the **reasoning-prefill** technique — without suppressing or replacing the model's own thinking.
 
 > **Disclaimer:** this is a research project. Using it may violate the terms of service of the upstream provider. All responsibility for use lies with the user.
 
@@ -99,8 +99,8 @@ Log metrics: `hist_reasoning=N/M restored=K(chars)`.
 Python **3.10+**, no third-party dependencies — standard library only.
 
 ```bash
-git clone <this-repo>
-cd kimik3-jb-proxy
+git clone https://github.com/funnybones69/kimi-k3-jailbreak-proxy
+cd kimi-k3-jailbreak-proxy
 ```
 
 Keys are supplied in one of two ways:
